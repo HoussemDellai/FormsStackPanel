@@ -13,7 +13,7 @@ namespace FormsStackPanel
 
             Title = "Favorite languages";
 
-            Content = new FormsStackPanel();
+            Content = new StackPanel();
         }
     }
 }

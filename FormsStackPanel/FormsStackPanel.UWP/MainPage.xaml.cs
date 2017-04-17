@@ -21,7 +21,7 @@ namespace FormsStackPanel.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new FormsStackPanel.App());
+            LoadApplication(new StackPanel.App());
         }
     }
 }

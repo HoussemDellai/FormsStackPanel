@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata minClientVersion="2.8.3">
     <id>Plugin.FormsStackPanel</id>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <title>StackPanel Plugin for Xamarin and Windows</title>
     <authors>Houssem Dellai</authors>
     <owners>Houssem Dellai</owners>
@@ -24,8 +24,8 @@
   </metadata>
   <files>
     <!--Core-->
-    <file src="FormsStackPanel\FormsStackPanel\FormsStackPanel.cs"
-          target="content\Controls\FormsStackPanel.cs" />
+    <file src="FormsStackPanel\FormsStackPanel\StackPanel.cs"
+          target="content\Controls\StackPanel.cs" />
     
     <!--<file src="readme.txt" 
           target="content\readme.txt"/>-->

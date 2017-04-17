@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace FormsStackPanel
 {
-    public class FormsStackPanel : Grid
+    public class StackPanel : Grid
     {
         private readonly List<string> _tags = new List<string>
         {
@@ -21,7 +19,7 @@ namespace FormsStackPanel
         private double _widthChildStack;
         private const double WidthParentStack = 320;
 
-        public FormsStackPanel()
+        public StackPanel()
         {
             var entry = new Entry
             {
@@ -37,7 +35,7 @@ namespace FormsStackPanel
             {
                 var tag = entry.Text;
 
-                await AddTag(tag);
+                await AddTagAsync(tag);
             };
 
             _childStack = new StackLayout
@@ -62,19 +60,19 @@ namespace FormsStackPanel
             };
             Children.Add(grid);
              
-            CreateStackPanel();
+            CreateStackPanelAsync();
         }
 
-        protected async void CreateStackPanel()
+        protected async void CreateStackPanelAsync()
         {
 
             foreach (var tag in _tags)
             {
-                await AddTag(tag);
+                await AddTagAsync(tag);
             }
         }
 
-        private async Task AddTag(string tag)
+        private async Task AddTagAsync(string tag)
         {
             var button = new Button
             {
