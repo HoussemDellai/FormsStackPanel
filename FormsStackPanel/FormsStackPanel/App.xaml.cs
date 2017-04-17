@@ -13,7 +13,7 @@ namespace FormsStackPanel
         {
             InitializeComponent();
 
-            MainPage = new FormsStackPanel.MainPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
