@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata minClientVersion="2.8.3">
     <id>Plugin.FormsStackPanel</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <title>StackPanel Plugin for Xamarin and Windows</title>
     <authors>Houssem Dellai</authors>
     <owners>Houssem Dellai</owners>
@@ -13,7 +13,7 @@
       https://github.com/HoussemDellai/FormsStackPanel
     </projectUrl>
     <iconUrl>
-      https://github.com/HoussemDellai/Facebook-Login-Xamarin-Forms/blob/master/items/facebook.jpg?raw=true
+      https://github.com/HoussemDellai/FormsStackPanel/blob/master/icon.png?raw=true
     </iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
